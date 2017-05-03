@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>quinta aplicacion</title>
+
+    <!--grupo CSS-->
+    <link rel="stylesheet" href="css/tema-app6.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="phonegap.js"></script>
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/batalla 4 de mayo.png','imagenes/5 de mayo.jpg','imagenes/historia-de-la-batalla-de-puebla-mexico.jpg','imagenes/batalla-5-de-mayo.jpg')">
+
+      <div data-role="page" id="Principal" data-theme="a">
+         <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+           <h1>Batalla de Puebla</h1>
+          </div>
+          <div>
+          <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/4_de_mayo.jpg" alt="4 de mayo" title="4 de mayo" id="wows1_0"/></li>
+		<li><img src="data1/images/5_de_mayo.jpg" alt="5 de mayo" title="5 de mayo" id="wows1_1"/></li>
+		<li><img src="data1/images/batalla_4_de_mayo.png" alt="batalla 4 de mayo" title="batalla 4 de mayo" id="wows1_2"/></li>
+		<li><img src="data1/images/batalla5demayo.jpg" alt="batalla-5-de-mayo" title="batalla-5-de-mayo" id="wows1_3"/></li>
+		<li><img src="data1/images/batalladeatlixco.jpg" alt="Batalla-de-Atlixco" title="Batalla-de-Atlixco" id="wows1_4"/></li>
+		<li><img src="data1/images/batalladepuebla.jpg" alt="batalla-de-Puebla" title="batalla-de-Puebla" id="wows1_5"/></li>
+		<li><img src="data1/images/historiadelabatalladepueblamexico.jpg" alt="historia-de-la-batalla-de-puebla-mexico" title="historia-de-la-batalla-de-puebla-mexico" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/nioarbol.jpg" alt="http://wowslider.com/" title="niño-arbol" id="wows1_7"/></a></li>
+		<li><img src="data1/images/pueblosunidosenlabatalladel5demayo.jpg" alt="Pueblos-Unidos-en-la-Batalla-del-5-de-Mayo" title="Pueblos-Unidos-en-la-Batalla-del-5-de-Mayo" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="4 de mayo"><span><img src="data1/tooltips/4_de_mayo.jpg" alt="4 de mayo"/>1</span></a>
+		<a href="#" title="5 de mayo"><span><img src="data1/tooltips/5_de_mayo.jpg" alt="5 de mayo"/>2</span></a>
+		<a href="#" title="batalla 4 de mayo"><span><img src="data1/tooltips/batalla_4_de_mayo.png" alt="batalla 4 de mayo"/>3</span></a>
+		<a href="#" title="batalla-5-de-mayo"><span><img src="data1/tooltips/batalla5demayo.jpg" alt="batalla-5-de-mayo"/>4</span></a>
+		<a href="#" title="Batalla-de-Atlixco"><span><img src="data1/tooltips/batalladeatlixco.jpg" alt="Batalla-de-Atlixco"/>5</span></a>
+		<a href="#" title="batalla-de-Puebla"><span><img src="data1/tooltips/batalladepuebla.jpg" alt="batalla-de-Puebla"/>6</span></a>
+		<a href="#" title="historia-de-la-batalla-de-puebla-mexico"><span><img src="data1/tooltips/historiadelabatalladepueblamexico.jpg" alt="historia-de-la-batalla-de-puebla-mexico"/>7</span></a>
+		<a href="#" title="niño-arbol"><span><img src="data1/tooltips/nioarbol.jpg" alt="niño-arbol"/>8</span></a>
+		<a href="#" title="Pueblos-Unidos-en-la-Batalla-del-5-de-Mayo"><span><img src="data1/tooltips/pueblosunidosenlabatalladel5demayo.jpg" alt="Pueblos-Unidos-en-la-Batalla-del-5-de-Mayo"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+<div data-role="main" class="ui-content">
+           <div data-role="collapsible" data-content-theme="false">
+             <h1>4 de Mayo</h1>
+            <div>
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','imagenes/batalla 4 de mayo.png',1)"><img src="imagenes/4 de mayo.jpg" width="301" height="167" id="Image46"></a> </div>
+              <p>Atlixco tiene una larga historia de contribuciones a la construcción de éste país  y este Estado de Puebla.
+
+Desde la etapa de colonización hispana, fue un lugar privilegiado y codiciado.  Sus condiciones de fertilidad, abundancia de agua y mano de obra, propiciaron una gran riqueza agrícola basada en el cultivo del trigo, por lo que fue considerada como “el primer granero de la Nueva España”.  Su importancia económica ha sido plasmada en diversos testimonios de aquella época recogidos en el libro “Antigua Villa de Carrión”, de la autoría de Marco Díaz.</p>
+<a href="http://www.sabersinfin.com/articulos/historia/6710-4-de-mayo-de-1862">Consultar mas Informacion</a>
+          </div>
+          </div>
+<div data-role="main" class="ui-content">
+           <div data-role="collapsible" data-content-theme="false">
+             <h1>5 de Mayo</h1>
+            <div>
+             <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/batalla-5-de-mayo.jpg',1)"><img src="imagenes/batalla-de-Puebla.jpg" width="400" height="320" id="Image22"></a> </div>
+          </div>
+          </div>
+          <div data-role="main" class="ui-content">
+           <div data-role="collapsible" data-content-theme="false">
+             <h1>Leyenda del 5 de Mayo</h1>
+            <div>
+             <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/historia-de-la-batalla-de-puebla-mexico.jpg',1)"><img src="imagenes/niño-arbol.jpg" width="420" height="350" id="Image23"></a> </div>
+             <p>La Batalla de Puebla fue un enfrentamiento con cede en la ciudad de Puebla el 5 de mayo de 1862, en donde el ejercito mexicano a cargo del general Ignacio Zaragoza, luchó contra el segundo imperio Francés, en lo que se le llamó “Segunda intervención francesa en México“. Sin embargo, los combatientes mexicanos salieron victoriosos de ese conflicto armado que costo la vida de miles de soldados, entre ellos, grandes héroes de la patria.</p>
+             <a href="https://leyendadeterror.com/5-de-mayo/">Consultar mas Informacion</a>
+          </div>
+          </div>
+         
+      <div>
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+            <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Motivos de la Batalla del 5 de Mayo</h2>
+                 <p>¿Porque se dio esta batalla?</p>
+          </a>
+</li>
+          </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+             <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+              </div>
+          <div>
+             <h4>Aplicacion Seis</h4>
+             <h4>Mitzi Fernandez Galicia</h4>
+           </div>
+         </div>
+        </div>
+        
+        
+        <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+              <h1>Batalla 5 de Mayo</h1>
+            </div>
+            <div data-role="content" align="center">
+              <div>
+                <h2>La Batalla de Puebla fue una cruenta batalla librada por el ejercito mexicano, dirigido por Ignacio Zaragoza, durante el gobierno de Benito Juárez, ante una invasión del ejército francés, y la cual culminó con la retirada de las tropas francesas luego de su rendición, el 5 de mayo de 1862.
+               
+               <ul>
+               <li>Antecedentes
+
+Para 1862 se encontraba México sumido en una grave crisis económica y social, por la llamada “Guerra de los 3 años”. Para aquel momento histórico, Benito Juárez accede al poder y realiza un pronunciamiento en donde pide al menos 2 años de tregua en el pago de una deuda a Francia, a España y a Inglaterra, por lo que suspendió el pago de la misma. Esta situación no agradó a los acreedores, que además de su pago, tendrían otros intereses de ocupación, expansión y económicos en América.
+
+Con la suspensión de los pagos, y la tregua de 2 años para poder pagar, se forma una coalición de los tres países, España, Francia e Inglaterra, con el fin de invadir México para obligarlos a pagar la deuda. Ante estos hechos, Benito Juárez se prepara con un ejército de 4.800 hombres, al mando de Ignacio Zaragoza .
+
+
+<li>Protagonistas
+
+Benito Juárez, presidente durante los hechos, Ignacio Zaragoza, Comandante del Ejército de la República Mexicana, Charles Ferdinand Latrille, Conde de Lorence , comando del Ejército Francés.
+
+
+<li>Causas de la Batalla de Puebla
+
+Existieron causas aparentes y causas que no lo fueron, o simplemente excusas, pero todos los aspectos mencionados fueron causas de la Batalla de Puebla; era claro que la República de México se encontraba sumida en crisis y tenía una deuda con Francia, España e Inglaterra; deuda que por la crisis, Benito Juárez, presidente de la época decidió no pagar por el momento y solicitar una tregua de 2 años para pagarla.
+
+Esta decisión de no pagar por el momento, disgustó a los acreedores de la deuda y decidieron agruparse para invadir a la Republica de México y cobrarse sus deudas, adicionalmente, cada uno de estos 3 países tenían intereses mas allá de la deuda; tenían intereses económicos, mineros y de expansión de sus negocios, también de colonización de territorios.
+</ul> 
+                </h2>
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+          <li class="ui-first-child ui-last-child">
+          <a href="https://webadictos.com/2016/05/05/historia-de-la-batalla-de-puebla-5-de-mayo/" data-role="button" id="beep">
+          <h2>Consultar mas Informacion</h2>
+          </a>
+          </li>
+          </ul>
+          </div>
+              </div>
+            <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+             <div>
+               <img src="imagenes/logo.png" width="46" height="46">
+              </div>
+          <div>
+             <h4>Aplicacion Seis</h4>
+             <h4>MFG</h4>
+           </div>
+         </div>
+         </div>
+        </div>
+</body>
+</html>
